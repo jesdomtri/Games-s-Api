@@ -30,34 +30,38 @@ api["Users"] = {
 }
 
 api["Matches"] = {
-    "10 Days in Africa": [
-        {
-            "VruO3Eol16MmqYsmoXCp2kgjnqB3": {
+    "VruO3Eol16MmqYsmoXCp2kgjnqB3": {
+        "10 Days in Africa": [
+            {
                 "score": 90,
-                "winner" : True,
-                "position" : 1
-            },
-            "IYDfG66zDNgiSyuGY8alAKihzUL2": {
-                "score": 10,
-                "winner" : False,
-                "position" : 2
+                "winner": True,
+                "position": 1
             }
-        }
-    ],
-    "Above and Below": [
-        {
-            "VruO3Eol16MmqYsmoXCp2kgjnqB3": {
+        ],
+        "Above and Below": [
+            {
                 "score": 5,
-                "winner" : False,
-                "position" : 2
-            },
-            "IYDfG66zDNgiSyuGY8alAKihzUL2": {
-                "score": 10,
-                "winner" : True,
-                "position" : 1
+                "winner": False,
+                "position": 2
             }
-        }
-    ]
+        ]
+    },
+    "IYDfG66zDNgiSyuGY8alAKihzUL2": {
+        "10 Days in Africa": [
+            {
+                "score": 10,
+                "winner": False,
+                "position": 2
+            }
+        ],
+        "Above and Below": [
+            {
+                "score": 10,
+                "winner": True,
+                "position": 1
+            }
+        ]
+    }
 }
 
 with open('newApi.json', 'w') as json_file:
